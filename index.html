@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Девайс</title>
+  <link rel="stylesheet" href="fonts/gilroyextrabold.woff">
+  <link rel="stylesheet" href="fonts/gilroyextrabold.woff2">
+  <link rel="stylesheet" href="fonts/opensanslight.woff">
+  <link rel="stylesheet" href="fonts/opensanslight.woff2">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <a href="#"><img src="/img/logo-device.svg" width="164" height="36" alt="Логотип магазина Девайс"></a>
+    <nav>
+      <div class="nav-row-wrapper">
+        <div class="inner-column">
+          <form class="search-form" action="#" method="POST">
+            <label class="vissually-hidden" for="site-search">Поиск по сайту</label>
+            <input id="site-search" type="text" placeholder="Поиск по сайту">
+            <button type="submit">Найти</button>
+          </form>
+        </div>
+        <div class="inner-column">
+          <ul class="user-nav">
+            <li><a href="#">Войти</a></li>
+            <li><a href="#">Сравнить</a></li>
+            <li><a href="#">Корзина</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="nav-row-wrapper">
+        <div class="inner-column">
+          <button type="button">Каталог товаров</button>
+          <div>
+            <ul class="product-catalog">
+              <li>
+                <ul class="category-group">
+                  <li><a href="#">Виртуальная реальность</a></li>
+                  <li><a href="#">Моноподы для селфи</a></li>
+                  <li><a href="#">Экшн-камеры</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="category-group">
+                  <li><a href="#">Фитнес-браслеты</a></li>
+                  <li><a href="#">Умные часы</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="category-group">
+                  <li><a href="#">Квадрокоптеры</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="inner-column">
+          <ul>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Гарантия</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="vissually-hidden">Магазин Девайс</h1>
+
+    <section class="slider">
+      <h2 class="visually-hidden">Слайдер</h2>
+      <div class="index-columns slide-1">
+        <div>
+          <img src="img/selfie-stick.png" width="384" height="486" alt="Селфи палка">
+        </div>
+        <div>
+          <p class="slide-num">01</p>
+          <p class="slide-title">Делай селфи,<br>
+            как Бен Стиллер!</p>
+          <p class="slide-description">Самая длинная палка для селфи доступна в нашем магазине.<br>
+            Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+          </p>
+          <div>
+            <a class="button" href="#">Подробнее</a>
+            <div class="slider-pagination">
+              <button class="radio" id="page-1" type="button" disabled></button>
+              <button class="radio" id="page-2" type="button"></button>
+              <button class="radio" id="page-3" type="button"></button>
+            </div>
+          </div>
+          <ul class="parameters">
+            <li>
+              <p class="value">8,5 м</p>
+              <p class="parameter">Длина палки</p>
+            </li>
+            <li>
+              <p class="value">5 кг</p>
+              <p class="parameter">Вес палки</p>
+            </li>
+            <li>
+              <p class="value">Карбон</p>
+              <p class="parameter">Материал</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="index-columns slide-2">
+        <div>
+          <img src="img/fitness-bracelet.png" width="345" height="485" alt="Фитнес браслет">
+        </div>
+        <div>
+          <p class="slide-num">02</p>
+          <p class="slide-title">Худеем<br>
+            правильно!</p>
+          <p class="slide-description">Мотивирующие фитнес-браслеты помогут найти в себе силы <br>
+            не пропускать занятия и соблюдать диету.
+          </p>
+          <div>
+            <a class="button" href="#">Подробнее</a>
+            <div class="slider-pagination">
+              <button class="radio" id="page-1" type="button"></button>
+              <button class="radio" id="page-2" type="button" disabled></button>
+              <button class="radio" id="page-3" type="button"></button>
+            </div>
+          </div>
+          <ul class="parameters">
+            <li>
+              <p class="value">48 часов</p>
+              <p class="parameter">Без подзарядки</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="index-columns slide-3">
+        <div>
+          <img src="img/quadrocopter.png" width="526" height="334" alt="Квадрокоптер">
+        </div>
+        <div>
+          <p class="slide-num">03</p>
+          <p class="slide-title">Порхает как бабочка,<br>
+            жалит как пчела!</p>
+          <p class="slide-description">Этот обычный, на первый взгляд, квадрокоптер оснащен <br>
+            мощным лазером, замаскированным под стандартную камеру.
+          </p>
+          <div>
+            <a class="button" href="#">Подробнее</a>
+            <div class="slider-pagination">
+              <button class="radio" id="page-1" type="button"></button>
+              <button class="radio" id="page-2" type="button"></button>
+              <button class="radio" id="page-3" type="button" disabled></button>
+            </div>
+          </div>
+          <ul class="parameters">
+            <li>
+              <p class="value">800 м</p>
+              <p class="parameter">Дальность полета</p>
+            </li>
+            <li>
+              <p class="value">50 м</p>
+              <p class="parameter">Радиус поражения</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular">
+      <ul class="popular-list">
+        <li class="popular-item">
+          <div class="temp">
+            <img src="/img/virtual-reality.svg" width="97" height="55" alt="Виртуальная реальность">
+          </div>
+          <p>Виртуальная реальность</p>
+        </li>
+        <li class="popular-item">
+          <div class="temp">
+            <img src="/img/monopods-for-selfies.svg" width="86" height="117" alt="Виртуальная реальность">
+          </div>
+          <p>Моноподы для селфи</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="services">
+    </section>
+
+    <section class="logotypes">
+    </section>
+
+    <div class="index-columns">
+      <section class="info">
+      </section>
+
+      <section class="contacts">
+      </section>
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+</body>
+
+</html>
